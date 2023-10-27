@@ -22,7 +22,6 @@ public class GetCustomerTasks {
             return buildCustResponse(customerModel);
         }else {
             throw new ApiRequestException("Customer does not exist/ CUSTOM EXCEPTION");
-            //throw new RuntimeException("Customer does not exist/ not fetchable");
         }
     }
 
